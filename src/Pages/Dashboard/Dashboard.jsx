@@ -1,7 +1,25 @@
-import { Box } from "@mui/material";
+import { Container, Grid, Box } from "@mui/material";
 
-const Dashboard = () => {
-  return <Box sx={{ width: "inherit", p: 2 }}> Dashboard</Box>;
-};
+import MUIAppbarComponent from "../../Components/MUIAppbarComponent";
+
+import Cards from "./Dashboard/Cards";
+
+const Dashboard = () => (
+  <>
+
+    <MUIAppbarComponent />
+
+    <Container>
+      <Grid spacing={2} container>
+        {/* dashboard cards */}
+        <Cards />
+
+        {/* tables or graphs */}
+
+      </Grid>
+    </Container>
+
+  </>
+);
 
 export default Dashboard;

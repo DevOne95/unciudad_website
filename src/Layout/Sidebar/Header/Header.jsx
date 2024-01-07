@@ -4,15 +4,17 @@ import logo from "../../../Assets/Logo/logo_image.png";
 const Header = () => {
   return (
     <Box
+      mt={2}
       sx={{
         width: "inherit",
-        p: 2,
-        pl: 2,
-        pt: 1,
-        pb: 0,
+        // p: 2,
+        // pl: 2,
+        // pt: 1,
+        // pb: 0,
         display: "flex",
         alignItems: "center",
-        gap: 1,
+        justifyContent: 'center',
+        // gap: 1,
       }}
     >
       <img src={logo} />

@@ -34,7 +34,7 @@ const AnimatedRoutes = () => {
         />
       </Route>
       <Route path="signin" element={<SignIn />} />
-      <Route path="signin" element={<SignUp />} />
+      <Route path="signup" element={<SignUp />} />
     </Routes>
   );
 };
